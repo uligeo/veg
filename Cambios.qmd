@@ -5,7 +5,6 @@ format: dashboard
 editor: visual
 ---
 
-
 ```{r}
 #| message: false
 #| warning: false
@@ -39,7 +38,6 @@ coloresmag <- colorRampPalette(c("#000000", "#FF0000"))(10)
 
 ```
 
-
 ```{r}
 #| message: false
 #| warning: false
@@ -67,13 +65,12 @@ m2 <- maplibre(zoom = 9, center = c(-89.617, 20.967)) |>
 mapacomparadoveg <- mapgl::compare(m1, m2)
 
 ```
-    
+
 # Cambios 2017 - 2024
 
 ```{r}
 mapacomparadoveg
 ```
-
 
 # Cambios
 
@@ -90,5 +87,53 @@ cam <-maplibre(zoom = 9, center = c(-89.617, 20.967)) |>
 
 cam
 
+```
+
+# Temperaturas Dia y noche
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+tempdia<-terra::rast("Mid/Dia_2023.tif")
+tempnoche <- terra::rast("Mid/Noche_2023.tif")
+
+## paleta de colores de temperatura azul mas bajo rojo mas caliente
+colorestemp <- colorRampPalette(c("#0000FF", "#FFFFFF", "#FF0000"))(10)
+
+```
+
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+m1temp <- maplibre(zoom = 9, center = c(-89.617, 20.967)) |>
+  add_image_source(
+    id             = "2023",
+    data         = tempdia,
+    colors         =colorestemp ) |>
+  add_raster_layer(
+    id             = "2023",
+    source         = "2023",
+    raster_opacity = 0.9)
+
+m2noche <- maplibre(zoom = 9, center = c(-89.617, 20.967)) |>
+  add_image_source(
+    id             = "2023",
+    data         = tempnoche,
+    colors         = colorestemp) |>
+  add_raster_layer(
+    id             = "2023",
+    source         = "2023",
+    raster_opacity = 0.9)
+
+mapacomparatemp <- mapgl::compare(m1temp, m2noche)
+```
+
+
+```{r}
+mapacomparatemp
 ```
 
