@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "locale": "es_ES",
+  "platform": "4.4.2",
+  "metadata": {
+    "appmode": "quarto-static",
+    "primary_rmd": "Mid/mun23gw/Merida.qmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.4.550",
+    "engines": ["markdown"]
+  },
+  "packages": null,
+  "files": {
+    "mapacomparadoveg_files/freehand-mode-1.0.0/freehand-mode.js": {
+      "checksum": "73abc28ce177bf9f3a4c8f988307d32e"
+    },
+    "mapacomparadoveg_files/h3j-h3t-0.9.2/h3j_h3t.js": {
+      "checksum": "9f09005a79202d590aefab92eb299858"
+    },
+    "mapacomparadoveg_files/htmlwidgets-1.6.4/htmlwidgets.js": {
+      "checksum": "237f59bc086ccf24f39be55311023b91"
+    },
+    "mapacomparadoveg_files/layers-control-1.0.0/filter-control.css": {
+      "checksum": "f9bb115d66d4e84c3f264eeaa3e66bdd"
+    },
+    "mapacomparadoveg_files/layers-control-1.0.0/layers-control.css": {
+      "checksum": "6fdd67f593b9859b87c4e329814110e2"
+    },
+    "mapacomparadoveg_files/mapbox-gl-draw-1.5.0/mapbox-gl-draw.css": {
+      "checksum": "0d64590f44b7735f22400c4d73ec49f1"
+    },
+    "mapacomparadoveg_files/mapbox-gl-draw-1.5.0/mapbox-gl-draw.js": {
+      "checksum": "7dac4ecf0fc388d4913c964668d5d3f4"
+    },
+    "mapacomparadoveg_files/mapbox-gl-globe-minimap-1.2.1/bundle.js": {
+      "checksum": "0fbf0c5747c8d5208f975ad0ae93a2dc"
+    },
+    "mapacomparadoveg_files/maplibre-gl-5.6.0/LICENSE.txt": {
+      "checksum": "c73ffe791f71e9dbcf26aeff3d6269ac"
+    },
+    "mapacomparadoveg_files/maplibre-gl-5.6.0/maplibre-gl.css": {
+      "checksum": "48074e8f007f6b31fdc7ba649c1d3357"
+    },
+    "mapacomparadoveg_files/maplibre-gl-5.6.0/maplibre-gl.js": {
+      "checksum": "b661ee88af95d060b0c1488314f370fb"
+    },
+    "mapacomparadoveg_files/maplibre-gl-compare-1/maplibre-gl-compare.css": {
+      "checksum": "ce90136002267a9e8dd8b2d07b12b8e7"
+    },
+    "mapacomparadoveg_files/maplibre-gl-compare-1/maplibre-gl-compare.js": {
+      "checksum": "46642b689362224796a8249df01d23a8"
+    },
+    "mapacomparadoveg_files/maplibre-gl-geocoder-1.5.0/maplibre-gl-geocoder.css": {
+      "checksum": "f57cb7be429ebc60096c666e54117126"
+    },
+    "mapacomparadoveg_files/maplibre-gl-geocoder-1.5.0/maplibre-gl-geocoder.min.js": {
+      "checksum": "49169cfe21451dcac6aa800ef8592c62"
+    },
+    "mapacomparadoveg_files/maplibregl_compare-binding-0.3/maplibregl_compare.js": {
+      "checksum": "dd2ebeef5db0349d9e37d4ff67709d46"
+    },
+    "mapacomparadoveg_files/pmtiles-4.3.0/pmtiles.js": {
+      "checksum": "eba4fdff0bba5de1e30b6d04108037ea"
+    },
+    "mapacomparadoveg.html": {
+      "checksum": "a8c31c45116403381aaf0979504a2d1a"
+    },
+    "Mid/lib/freehand-mode-1.0.0/freehand-mode.js": {
+      "checksum": "73abc28ce177bf9f3a4c8f988307d32e"
+    },
+    "Mid/lib/h3j-h3t-0.9.2/h3j_h3t.js": {
+      "checksum": "9f09005a79202d590aefab92eb299858"
+    },
+    "Mid/lib/htmlwidgets-1.6.4/htmlwidgets.js": {
+      "checksum": "237f59bc086ccf24f39be55311023b91"
+    },
+    "Mid/lib/layers-control-1.0.0/filter-control.css": {
+      "checksum": "f9bb115d66d4e84c3f264eeaa3e66bdd"
+    },
+    "Mid/lib/layers-control-1.0.0/layers-control.css": {
+      "checksum": "6fdd67f593b9859b87c4e329814110e2"
+    },
+    "Mid/lib/mapbox-gl-draw-1.5.0/mapbox-gl-draw.css": {
+      "checksum": "0d64590f44b7735f22400c4d73ec49f1"
+    },
+    "Mid/lib/mapbox-gl-draw-1.5.0/mapbox-gl-draw.js": {
+      "checksum": "7dac4ecf0fc388d4913c964668d5d3f4"
+    },
+    "Mid/lib/mapbox-gl-globe-minimap-1.2.1/bundle.js": {
+      "checksum": "0fbf0c5747c8d5208f975ad0ae93a2dc"
+    },
+    "Mid/lib/maplibre-gl-5.6.0/LICENSE.txt": {
+      "checksum": "c73ffe791f71e9dbcf26aeff3d6269ac"
+    },
+    "Mid/lib/maplibre-gl-5.6.0/maplibre-gl.css": {
+      "checksum": "48074e8f007f6b31fdc7ba649c1d3357"
+    },
+    "Mid/lib/maplibre-gl-5.6.0/maplibre-gl.js": {
+      "checksum": "b661ee88af95d060b0c1488314f370fb"
+    },
+    "Mid/lib/maplibre-gl-compare-1/maplibre-gl-compare.css": {
+      "checksum": "ce90136002267a9e8dd8b2d07b12b8e7"
+    },
+    "Mid/lib/maplibre-gl-compare-1/maplibre-gl-compare.js": {
+      "checksum": "46642b689362224796a8249df01d23a8"
+    },
+    "Mid/lib/maplibre-gl-geocoder-1.5.0/maplibre-gl-geocoder.css": {
+      "checksum": "f57cb7be429ebc60096c666e54117126"
+    },
+    "Mid/lib/maplibre-gl-geocoder-1.5.0/maplibre-gl-geocoder.min.js": {
+      "checksum": "49169cfe21451dcac6aa800ef8592c62"
+    },
+    "Mid/lib/maplibregl_compare-binding-0.3/maplibregl_compare.js": {
+      "checksum": "dd2ebeef5db0349d9e37d4ff67709d46"
+    },
+    "Mid/lib/pmtiles-4.3.0/pmtiles.js": {
+      "checksum": "eba4fdff0bba5de1e30b6d04108037ea"
+    },
+    "Mid/mun23gw/Merida.geojson": {
+      "checksum": "0f046b4ce7935b81235c73a165f225a5"
+    },
+    "Mid/mun23gw/Merida.qmd": {
+      "checksum": "d6d9ff734f76f1a877e8267a942c9b77"
+    },
+    "Mid/mun23gw/mun23gw_s.png": {
+      "checksum": "84d755be96e329be3434f81524350e1e"
+    },
+    "Mid/mun23gw/mun23gw_s.png.aux.xml": {
+      "checksum": "ed99d01511dc080d5e04e5fbd31c2f06"
+    },
+    "Mid/mun23gw/mun23gw.dbf": {
+      "checksum": "ce2543ffb32e4178d8b0343ffd1339d7"
+    },
+    "Mid/mun23gw/mun23gw.html": {
+      "checksum": "b841e93e1f08029179390dba5cac4db4"
+    },
+    "Mid/mun23gw/mun23gw.png": {
+      "checksum": "782144d5b49eef372643c6fee1f6976a"
+    },
+    "Mid/mun23gw/mun23gw.prj": {
+      "checksum": "c742bee3d4edfc2948a2ad08de1790a5"
+    },
+    "Mid/mun23gw/mun23gw.shp": {
+      "checksum": "cb9baa0e6c3f498090f2434bb44fe309"
+    },
+    "Mid/mun23gw/mun23gw.shx": {
+      "checksum": "40a0d453c54a653a072d06a63ded4b38"
+    },
+    "Mid/mun23gw/mun23gw.xml": {
+      "checksum": "cde7e66fb0eebd5b3d350fb5513469bc"
+    },
+    "Mid/ndvi_2017_cortado.tif": {
+      "checksum": "644891b71ec86326ccbc7f489e88f6ae"
+    },
+    "Mid/ndvi2017.tif": {
+      "checksum": "ffa708e120aa2b832279c5e87b804133"
+    },
+    "Mid/ndvi2018.tif": {
+      "checksum": "d95d8c08bf654f4ac49bb3cce267af9a"
+    },
+    "Mid/ndvi2019.tif": {
+      "checksum": "4a9982a0d05009806f3c697cbf00b09e"
+    },
+    "Mid/ndvi2020_cortado.tif": {
+      "checksum": "11ee4e0478eab185e1ffd0905ff45e56"
+    },
+    "Mid/ndvi2020.tif": {
+      "checksum": "afeab078840203d8424ff1401d5252fe"
+    },
+    "Mid/ndvi2021.tif": {
+      "checksum": "58e3770231c03ff04f1b24d2bf08e41b"
+    },
+    "Mid/ndvi2022.tif": {
+      "checksum": "e56db4bcd6247fda630409b2ba2bff1e"
+    },
+    "Mid/ndvi2023.tif": {
+      "checksum": "40176a012eff6e53dd63616e5fbd94ed"
+    },
+    "Mid/ndvi2024_cortado.tif": {
+      "checksum": "e00c6ca906c16bc57210f4d81d811fee"
+    },
+    "Mid/ndvi2024.tif": {
+      "checksum": "10c7ccb1536f7522b0818ae8116f019e"
+    },
+    "viz.R": {
+      "checksum": "1162a22b8acbf67d517471f61d44df16"
+    }
+  },
+  "users": null
+}
